@@ -9,8 +9,9 @@ public class Smartphones extends Product {
 
     //COSTRUTTORI
 
-    public Smartphones(int code, String name, String brand, BigDecimal price, BigDecimal vat, int memory, String imeiCode) {
-        super(code, name, brand, price, vat);
+
+    public Smartphones(String name, String brand, BigDecimal price, BigDecimal vat, int memory, String imeiCode) {
+        super(name, brand, price, vat);
         this.memory = memory;
         this.imeiCode = imeiCode;
     }

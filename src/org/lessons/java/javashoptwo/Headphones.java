@@ -9,8 +9,8 @@ public class Headphones extends Product {
 
     //COSTRUTTORI
 
-    public Headphones(int code, String name, String brand, BigDecimal price, BigDecimal vat, String color, boolean wire) {
-        super(code, name, brand, price, vat);
+    public Headphones(String name, String brand, BigDecimal price, BigDecimal vat, String color, boolean wire) {
+        super(name, brand, price, vat);
         this.color = color;
         this.wire = wire;
     }

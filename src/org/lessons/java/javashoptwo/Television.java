@@ -8,11 +8,12 @@ public class Television extends Product {
     private boolean smart;
     //COSTRUTTORI
 
-    public Television(int code, String name, String brand, BigDecimal price, BigDecimal vat, BigDecimal dimensions, boolean smart) {
-        super(code, name, brand, price, vat);
+    public Television(String name, String brand, BigDecimal price, BigDecimal vat, BigDecimal dimensions, boolean smart) {
+        super(name, brand, price, vat);
         this.dimensions = dimensions;
         this.smart = smart;
     }
+
 
     //GETTERS AND SETTERS
 
